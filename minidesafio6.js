@@ -2,9 +2,9 @@ let numero1 = 300
 let numero2 = 250
 let numero3 = 200
 
-let numeroMaior = (numero1 > numero2 && numero1 > numero3)
-let numeroMedio = (numero2 > numero3 && numero2 < numero1)
-let numeroMenor = (numero3 < numero1 && numero3 < numero2)
+let numeroMaior = (numero1 > numero2 && numero1 > numero3) // Área desnecessária do código
+let numeroMedio = (numero2 > numero3 && numero2 < numero1) // Área desnecessária do código
+let numeroMenor = (numero3 < numero1 && numero3 < numero2) // Área desnecessária do código
 
 if (numero1 >= numero2 && numero1 >= numero3) {
     console.log("O maior número é: " + numero1)
@@ -13,5 +13,5 @@ if (numero1 >= numero2 && numero1 >= numero3) {
 } else if (numero3 < numero1 && numero3 < numero2) {
     console.log("O menor número é: " + numero3)
 } else {
-    console.log("Números iguais")
+    console.log("Números iguais") // Lembrar a inutilidade desse código
 }
