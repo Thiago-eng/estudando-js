@@ -12,5 +12,5 @@ function nivelCargaBateria(percentual) {
     }
 }
 
-console.log("Seu dispositivo está com: ")
+console.log("Seu dispositivo está com: ") // Aprendendo a usar funções
 console.log(nivelCargaBateria(63)) // output: Carga média
