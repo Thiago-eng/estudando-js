@@ -1,8 +1,8 @@
 let idade = 20
 let temCNH = true
 
-if (idade >= 18 && temCNH) {
+if (idade >= 18 && temCNH === true) {
         console.log("Pode dirigir")
     } else {
-        console.log("Não pode dirigir, pois não tem CNH")
+        console.log("Não pode dirigir")
     }
